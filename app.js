@@ -8,7 +8,6 @@ const mongoose = require("mongoose");
 const helmet = require("helmet");
 
 const ejsMate = require("ejs-mate");
-const session = require("express-session");
 const flash = require("connect-flash");
 const ExpressError = require("./utils/ExpressError");
 const methodOverride = require("method-override");
